@@ -116,7 +116,7 @@ export default function TrustedVendors() {
           </CarouselContent>
 
           {/* Navigation Buttons */}
-          <div className="flex justify-end gap-2 mt-6">
+          <div className="flex justify-end gap-2 mt-6 mb-10">
             <CarouselPrevious className="static translate-y-0 rounded-full border-0 bg-white hover:bg-black hover:text-white text-black size-10" />
             <CarouselNext className="static translate-y-0 rounded-full border-0 bg-white hover:bg-black hover:text-white text-black size-10" />
           </div>

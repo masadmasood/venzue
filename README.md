@@ -1,6 +1,6 @@
 # Venzue - Venue Booking Platform
 
-Venzue is a modern venue booking and event service platform that connects event organizers with perfect venues and trusted service providers. Built with Next.js 15, TypeScript, and Tailwind CSS.
+Venzue is a modern venue booking and event service platform that connects event organizers with perfect venues and trusted service providers. Built with Next.js 16, TypeScript, and Tailwind CSS.
 
 ## 🚀 Features
 
@@ -16,9 +16,9 @@ Venzue is a modern venue booking and event service platform that connects event 
 
 ## 🛠️ Tech Stack
 
-- **Framework**: [Next.js 15](https://nextjs.org/) (App Router)
+- **Framework**: [Next.js 16.xx](https://nextjs.org/) (App Router)
 - **Language**: TypeScript
-- **Styling**: Tailwind CSS v4 with custom design system
+- **Styling**: Tailwind CSS v4.xx with custom design system
 - **UI Components**: 
   - Radix UI primitives for accessible components
   - Custom carousel implementation
@@ -86,123 +86,22 @@ venzue/
 - **Testimonials**: Customer reviews with statistics
 - **Exceptional Destinations**: Regional venue exploration
 
-## 🚀 Getting Started
-
-### Prerequisites
-- Node.js 18+ 
-- npm, yarn, pnpm, or bun
-
-### Installation
-
-1. Clone the repository:
-```bash
-git clone https://github.com/masadmasood/venzue.git
-cd venzue
-```
-
-2. Install dependencies:
-```bash
-npm install
-# or
-yarn install
-# or
-pnpm install
-```
-
-3. Run the development server:
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
-
-4. Open [http://localhost:3000](http://localhost:3000) in your browser
-
-### Build for Production
-
-```bash
-npm run build
-npm run start
-```
-
-## 🎨 Design Features
-
-- **Custom Color Palette**: Brand-specific gradients and colors
-- **Responsive Breakpoints**: 
-  - Mobile: < 640px
-  - Tablet: 640px - 1024px
-  - Desktop: 1024px+
-- **Smooth Animations**: Transition effects and hover states
-- **Accessibility**: ARIA labels and keyboard navigation support
-- **Performance**: Optimized images, lazy loading, and code splitting
-
-## 📝 Configuration
-
-### Tailwind CSS
-Custom theme configuration in `globals.css` includes:
-- Brand colors (Primary: #FF5037)
-- Custom spacing and border radius
-- Gradient definitions
-- Typography scale
-
-### TypeScript
-Strict mode enabled for type safety across all components.
-
-## 🔧 Customization
-
-### Adding New Sections
-1. Create component in `src/shared/components/sections/`
-2. Import and add to `src/app/page.tsx`
-3. Follow existing responsive patterns
-
-### Modifying Theme
-Update CSS variables in `src/styles/globals.css`:
-```css
-:root {
-  --primary: #FF5037;
-  --star: #FEC432;
-  /* Add custom variables */
-}
-```
-
-## 📦 Dependencies
-
-### Core
-- `next`: ^15.x
-- `react`: ^19.x
-- `typescript`: ^5.x
-
-### UI Libraries
-- `@radix-ui/react-select`: Select components
-- `lucide-react`: Icon library
-- `tailwindcss`: ^4.x
-
-## 🌐 Browser Support
-
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
 
 ## 📄 License
 
-This project is private and proprietary.
+MIT License - feel free to use this project for learning and personal projects.
 
 ## 👥 Author
 
-**Masad Masood**
+**Asad Masood**
 - GitHub: [@masadmasood](https://github.com/masadmasood)
+- LinkedIn: [Asad Masood](https://linkedin.com/in/masadmasood)
 
-## 🤝 Contributing
 
-This is a private project. Contact the repository owner for collaboration opportunities.
 
 ## 📞 Support
 
-For questions or issues, please contact the development team.
+If you have any questions or run into issues:
+- Open an issue on GitHub
+- Contact via email or LinkedIn
 
----
-
-Built with ❤️ using Next.js and Tailwind CSS
