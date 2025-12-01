@@ -169,8 +169,8 @@ export default function SearchBar({ className = "", inNavbar = false }: SearchBa
         </div>
 
         {/* Search Button */}
-        <Button onClick={handleSearch} className="lg:block hidden bg-primary text-white hover:bg-primary/90 h-12 px-8 gap-2 text-base rounded-lg!">
-          <SearchIcon className="w-5 h-5" />
+        <Button onClick={handleSearch} className="bg-primary text-white hover:bg-primary/90 h-12 px-8 gap-2 text-base rounded-lg hidden lg:flex items-center justify-center">
+          <SearchIcon className="w-5 h-5 self-center" />
           Search
         </Button>
       </div>
